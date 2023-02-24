@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1858D0D4298138060031141F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D0D3298138060031141F /* AppDelegate.swift */; };
+		1858D0D6298138060031141F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D0D5298138060031141F /* SceneDelegate.swift */; };
+		1858D0D8298138060031141F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D0D7298138060031141F /* ViewController.swift */; };
+		1858D0DB298138060031141F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858D0D9298138060031141F /* Main.storyboard */; };
+		1858D0DD298138070031141F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1858D0DC298138070031141F /* Assets.xcassets */; };
+		1858D0E0298138070031141F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858D0DE298138070031141F /* LaunchScreen.storyboard */; };
+		1858D0EA298148100031141F /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D0E9298148100031141F /* DestinationViewController.swift */; };
+		1858D0EE298170990031141F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D0ED298170990031141F /* SearchViewController.swift */; };
+		1858D0F229817F480031141F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D0F129817F480031141F /* ProfileView.swift */; };
+		1858D0F629827D4D0031141F /* ChatUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D0F529827D4D0031141F /* ChatUIView.swift */; };
+		1858D0F929910E380031141F /* Viking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D0F829910E380031141F /* Viking.swift */; };
+		1858D0FC299166860031141F /* SeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D0FB299166860031141F /* SeasonView.swift */; };
+		1858D0FE299168970031141F /* VikingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D0FD299168970031141F /* VikingView.swift */; };
+		1858D10029916A2C0031141F /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D0FF29916A2C0031141F /* RoundedImage.swift */; };
+		1858D102299A47920031141F /* VikingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D101299A47920031141F /* VikingDetailView.swift */; };
+		1858D104299AA35E0031141F /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D103299AA35E0031141F /* APIResponse.swift */; };
+		1858D108299BC9670031141F /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D107299BC9670031141F /* CurrencyCell.swift */; };
+		1858D11029A3AF8F0031141F /* DiscussionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D10F29A3AF8F0031141F /* DiscussionUIView.swift */; };
+		1858D11329A3CB8D0031141F /* DiscussionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D11229A3CB8D0031141F /* DiscussionsModel.swift */; };
+		1858D11629A4DC6D0031141F /* StepsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D11529A4DC6D0031141F /* StepsViews.swift */; };
+		1858D11829A50B980031141F /* DirectUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858D11729A50B980031141F /* DirectUIView.swift */; };
+		866FD34BBDF7D4980572D252 /* Pods_AZTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA53ACA921C804337CA4F86F /* Pods_AZTabBarController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1858D0D0298138060031141F /* AZTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1858D0D3298138060031141F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1858D0D5298138060031141F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1858D0D7298138060031141F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1858D0DA298138060031141F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1858D0DC298138070031141F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1858D0DF298138070031141F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1858D0E1298138070031141F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1858D0E9298148100031141F /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		1858D0ED298170990031141F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1858D0F129817F480031141F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1858D0F529827D4D0031141F /* ChatUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUIView.swift; sourceTree = "<group>"; };
+		1858D0F829910E380031141F /* Viking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viking.swift; sourceTree = "<group>"; };
+		1858D0FB299166860031141F /* SeasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonView.swift; sourceTree = "<group>"; };
+		1858D0FD299168970031141F /* VikingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VikingView.swift; sourceTree = "<group>"; };
+		1858D0FF29916A2C0031141F /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		1858D101299A47920031141F /* VikingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VikingDetailView.swift; sourceTree = "<group>"; };
+		1858D103299AA35E0031141F /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		1858D107299BC9670031141F /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		1858D10F29A3AF8F0031141F /* DiscussionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussionUIView.swift; sourceTree = "<group>"; };
+		1858D11229A3CB8D0031141F /* DiscussionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussionsModel.swift; sourceTree = "<group>"; };
+		1858D11529A4DC6D0031141F /* StepsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViews.swift; sourceTree = "<group>"; };
+		1858D11729A50B980031141F /* DirectUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectUIView.swift; sourceTree = "<group>"; };
+		1A841647F1A24E8ADC7365B5 /* Pods-AZTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZTabBarController.release.xcconfig"; path = "Target Support Files/Pods-AZTabBarController/Pods-AZTabBarController.release.xcconfig"; sourceTree = "<group>"; };
+		9A497CABFEBB768409E74AC3 /* Pods-AZTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZTabBarController.debug.xcconfig"; path = "Target Support Files/Pods-AZTabBarController/Pods-AZTabBarController.debug.xcconfig"; sourceTree = "<group>"; };
+		FA53ACA921C804337CA4F86F /* Pods_AZTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1858D0CD298138060031141F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866FD34BBDF7D4980572D252 /* Pods_AZTabBarController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1858D0C7298138060031141F = {
+			isa = PBXGroup;
+			children = (
+				1858D0D2298138060031141F /* AZTabBarController */,
+				1858D0D1298138060031141F /* Products */,
+				4FECFAE72CCA46E541F0072E /* Pods */,
+				6E491F8B19158B59D48409D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1858D0D1298138060031141F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1858D0D0298138060031141F /* AZTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1858D0D2298138060031141F /* AZTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				1858D0FA299166500031141F /* CustomViews */,
+				1858D0F729910E080031141F /* Models */,
+				1858D0D3298138060031141F /* AppDelegate.swift */,
+				1858D0D5298138060031141F /* SceneDelegate.swift */,
+				1858D0D7298138060031141F /* ViewController.swift */,
+				1858D0D9298138060031141F /* Main.storyboard */,
+				1858D0DC298138070031141F /* Assets.xcassets */,
+				1858D0DE298138070031141F /* LaunchScreen.storyboard */,
+				1858D0E1298138070031141F /* Info.plist */,
+				1858D0E9298148100031141F /* DestinationViewController.swift */,
+				1858D0ED298170990031141F /* SearchViewController.swift */,
+				1858D0F129817F480031141F /* ProfileView.swift */,
+				1858D0F529827D4D0031141F /* ChatUIView.swift */,
+				1858D11729A50B980031141F /* DirectUIView.swift */,
+			);
+			path = AZTabBarController;
+			sourceTree = "<group>";
+		};
+		1858D0F729910E080031141F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1858D11129A3CB670031141F /* Discussions */,
+				1858D105299B968B0031141F /* CoinsRankingAPI */,
+				1858D0F829910E380031141F /* Viking.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1858D0FA299166500031141F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				1858D11429A4DC150031141F /* StepViews */,
+				1858D10E29A3AF5B0031141F /* Discussions */,
+				1858D106299BC9220031141F /* CoinsRankingAPI */,
+				1858D0FB299166860031141F /* SeasonView.swift */,
+				1858D0FD299168970031141F /* VikingView.swift */,
+				1858D0FF29916A2C0031141F /* RoundedImage.swift */,
+				1858D101299A47920031141F /* VikingDetailView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		1858D105299B968B0031141F /* CoinsRankingAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1858D103299AA35E0031141F /* APIResponse.swift */,
+			);
+			path = CoinsRankingAPI;
+			sourceTree = "<group>";
+		};
+		1858D106299BC9220031141F /* CoinsRankingAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1858D107299BC9670031141F /* CurrencyCell.swift */,
+			);
+			path = CoinsRankingAPI;
+			sourceTree = "<group>";
+		};
+		1858D10E29A3AF5B0031141F /* Discussions */ = {
+			isa = PBXGroup;
+			children = (
+				1858D10F29A3AF8F0031141F /* DiscussionUIView.swift */,
+			);
+			path = Discussions;
+			sourceTree = "<group>";
+		};
+		1858D11129A3CB670031141F /* Discussions */ = {
+			isa = PBXGroup;
+			children = (
+				1858D11229A3CB8D0031141F /* DiscussionsModel.swift */,
+			);
+			path = Discussions;
+			sourceTree = "<group>";
+		};
+		1858D11429A4DC150031141F /* StepViews */ = {
+			isa = PBXGroup;
+			children = (
+				1858D11529A4DC6D0031141F /* StepsViews.swift */,
+			);
+			path = StepViews;
+			sourceTree = "<group>";
+		};
+		4FECFAE72CCA46E541F0072E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A497CABFEBB768409E74AC3 /* Pods-AZTabBarController.debug.xcconfig */,
+				1A841647F1A24E8ADC7365B5 /* Pods-AZTabBarController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E491F8B19158B59D48409D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA53ACA921C804337CA4F86F /* Pods_AZTabBarController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1858D0CF298138060031141F /* AZTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1858D0E4298138070031141F /* Build configuration list for PBXNativeTarget "AZTabBarController" */;
+			buildPhases = (
+				132C28389777BC520F8FC275 /* [CP] Check Pods Manifest.lock */,
+				1858D0CC298138060031141F /* Sources */,
+				1858D0CD298138060031141F /* Frameworks */,
+				1858D0CE298138060031141F /* Resources */,
+				576D38B0C2C31ADC6857B58C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZTabBarController;
+			productName = AZTabBarController;
+			productReference = 1858D0D0298138060031141F /* AZTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1858D0C8298138060031141F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1858D0CF298138060031141F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1858D0CB298138060031141F /* Build configuration list for PBXProject "AZTabBarController" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1858D0C7298138060031141F;
+			productRefGroup = 1858D0D1298138060031141F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1858D0CF298138060031141F /* AZTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1858D0CE298138060031141F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1858D0E0298138070031141F /* LaunchScreen.storyboard in Resources */,
+				1858D0DD298138070031141F /* Assets.xcassets in Resources */,
+				1858D0DB298138060031141F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		132C28389777BC520F8FC275 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AZTabBarController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		576D38B0C2C31ADC6857B58C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AZTabBarController/Pods-AZTabBarController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AZTabBarController/Pods-AZTabBarController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AZTabBarController/Pods-AZTabBarController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1858D0CC298138060031141F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1858D108299BC9670031141F /* CurrencyCell.swift in Sources */,
+				1858D0F229817F480031141F /* ProfileView.swift in Sources */,
+				1858D0D8298138060031141F /* ViewController.swift in Sources */,
+				1858D0F929910E380031141F /* Viking.swift in Sources */,
+				1858D0EE298170990031141F /* SearchViewController.swift in Sources */,
+				1858D0D4298138060031141F /* AppDelegate.swift in Sources */,
+				1858D0FE299168970031141F /* VikingView.swift in Sources */,
+				1858D0FC299166860031141F /* SeasonView.swift in Sources */,
+				1858D104299AA35E0031141F /* APIResponse.swift in Sources */,
+				1858D0F629827D4D0031141F /* ChatUIView.swift in Sources */,
+				1858D0D6298138060031141F /* SceneDelegate.swift in Sources */,
+				1858D10029916A2C0031141F /* RoundedImage.swift in Sources */,
+				1858D102299A47920031141F /* VikingDetailView.swift in Sources */,
+				1858D11029A3AF8F0031141F /* DiscussionUIView.swift in Sources */,
+				1858D0EA298148100031141F /* DestinationViewController.swift in Sources */,
+				1858D11829A50B980031141F /* DirectUIView.swift in Sources */,
+				1858D11629A4DC6D0031141F /* StepsViews.swift in Sources */,
+				1858D11329A3CB8D0031141F /* DiscussionsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1858D0D9298138060031141F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1858D0DA298138060031141F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1858D0DE298138070031141F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1858D0DF298138070031141F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1858D0E2298138070031141F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1858D0E3298138070031141F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1858D0E5298138070031141F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A497CABFEBB768409E74AC3 /* Pods-AZTabBarController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AZTabBarController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = frf.AZTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1858D0E6298138070031141F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A841647F1A24E8ADC7365B5 /* Pods-AZTabBarController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AZTabBarController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = frf.AZTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1858D0CB298138060031141F /* Build configuration list for PBXProject "AZTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1858D0E2298138070031141F /* Debug */,
+				1858D0E3298138070031141F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1858D0E4298138070031141F /* Build configuration list for PBXNativeTarget "AZTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1858D0E5298138070031141F /* Debug */,
+				1858D0E6298138070031141F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1858D0C8298138060031141F /* Project object */;
+}
