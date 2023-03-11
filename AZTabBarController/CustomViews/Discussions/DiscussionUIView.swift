@@ -52,6 +52,13 @@ struct DiscussionUIView: View {
     }
 }
 
+struct DiscussionUIView_Previews: PreviewProvider {
+    static var previews: some View {
+        DiscussionUIView(imageUrl: "woman1", size: 60, borderWith: 10, userCertified: true, smallImageSize: 25, message: "Bonjour, j'ai déja transféré votre colis, il arrivera dans 06 jours", name : "Ngouan Iton", time: "12:24" )
+            .previewLayout(.sizeThatFits)
+    }
+}
+
 struct RoundedImageTemp: View {
     var imageUrl :String
     var largeImageSize: CGFloat
@@ -85,13 +92,6 @@ struct RoundedImageTemp: View {
 struct RoundedImageTemp_Previews: PreviewProvider {
     static var previews: some View {
         RoundedImageTemp(imageUrl: "woman1", largeImageSize: 100, smallImageSize: 35, borderWith: 1)
-            .previewLayout(.sizeThatFits)
-    }
-}
-
-struct DiscussionUIView_Previews: PreviewProvider {
-    static var previews: some View {
-        DiscussionUIView(imageUrl: "woman1", size: 60, borderWith: 10, userCertified: true, smallImageSize: 25, message: "Bonjour, j'ai déja transféré votre colis, il arrivera dans 06 jours", name : "Ngouan Iton", time: "12:24" )
             .previewLayout(.sizeThatFits)
     }
 }
